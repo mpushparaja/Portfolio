@@ -1,1 +1,16 @@
-@import "tailwindcss";
+.navBar {
+    color: white;
+    background-color: darkslateblue;
+    padding: 0px 20px;
+    display: flex;
+
+    ul {
+        display: inline;
+
+        a {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
